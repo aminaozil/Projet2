@@ -104,7 +104,7 @@ nav li{
     padding-left: 60px;
 }
 
-/*premier div or section de body*/
+/*accueil*/
 .section2{
     background-color: #ffffff;
     width: 100%;
@@ -116,7 +116,7 @@ nav li{
     gap: 250px;   
 }
 
-/*contenu premier div or section de body*/
+/*accuei*/
 .container .section2 .section3{
     margin-left: 80px;
     padding-right: 80px;
@@ -313,27 +313,96 @@ body footer{
     margin-top: 10px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 35px;
+    grid-gap: 10px;
     grid-auto-rows: minmax(75px, auto);
-    padding: 0 80px 30px 80px ;
-    box-shadow: 5px 10px 5px rgb(255, 255, 255);
+    padding: 0 0 10px 200px ;
     text-align: center;
+    
 }
+/*grid temoignage*/
 .section13 .section14{
-    background-image: url("images/banner-Ker-maam.jpg");
-    border-radius: 12px;
-    height: 370px;
-    width: 300px;
-    box-shadow: 5px 10px 5px rgb(156, 156, 156);
-
+    background-color: #ffffff;
+    height: 430px;
+    width: 300px;  
 }
-
+/*images girid temoignage*/
 .section13 .section14 .sect2{
     width: 200px;
     height: 150px;
     margin-top: 10px;
+    border-radius: 50%;
 }
 
+/*bacgroung de témoignage*/
 .section15{
-    background-color: #ffffff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.850),rgba(0, 0, 0, 0.850)) , url("ens.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
 }
+
+/*presentation produits*/
+.grid-container{
+    display: grid;
+    height: 400px;
+    align-content: center;
+    grid-template-columns: repeat(2, 1fr);  
+    padding: 45px;
+}
+.grid-container > div {
+    text-align: center;
+    margin-bottom: 0px;
+    
+  }
+
+.grid-container .img-grid1{
+    width: 350px;
+    height: 300px;
+}
+.grid-container .img-grid2{
+    width: 200px;
+    height: 150px;
+    padding-top: 45px;
+}
+.grid-container .img-grid3{
+    width: 200px;
+    height: 150px;
+    padding-bottom: 30px;
+}
+
+/*envoie mail*/
+.section16{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.850),rgba(0, 0, 0, 0.850)) , url("banner-Ker-maam.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 300px;
+    
+}
+.btemail{
+    background-color: #277748;
+    border: none;
+    color: white;
+    padding: 15px 75px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+    height: 50px;
+}
+.section17{
+    text-align: center;
+    padding: 50px 80px 50px 80px;
+}
+.section16 .section17 input{
+    border-radius: 5px;
+    width: 65%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    
+}
+
