@@ -252,7 +252,6 @@ nav li{
 
 /*footer*/
 body footer{
-    border: black 3px solid;
     background-color: #ffffff;
     text-align: center;
 }
@@ -404,5 +403,17 @@ body footer{
     box-sizing: border-box;
     font-size: 15px;
     
+}
+
+/*nos services*/
+.section18{
+
+    text-align: center;
+    padding-top: 50px;
+}
+.sect3{
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
 }
 
