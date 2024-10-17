@@ -1,0 +1,339 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    min-height: 100%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: rgb(219, 218, 218);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    
+}
+/*les liens de la navigation*/
+
+.nav a{
+    text-decoration: none;
+    color:black;
+    list-style-type: none;
+    position: relative;
+    top: 30px;
+    left: 16px;
+    font-size: 18px;
+    padding-right: 20px;
+    
+}
+
+/*les ul de la navigation*/
+ul{
+	margin: 0px;
+	list-style-type: none;
+	position: fixed;
+}
+
+/*les card et sarch de la navigation*/
+.section1{
+    float: right; 
+    margin: 19px 10px;
+    padding: 10px 0;    
+}
+/*div boutton abonner de la nav*/
+.bt2{
+    float: right; 
+    margin: 12px 10px;
+    padding: 5px 0;    
+}
+
+/*text des liens de la nav*/
+.textpos{
+    margin-right: 900px;
+}
+
+/* les li de la nav*/
+nav li{
+    display: inline;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: bold;    
+}
+
+/* le boutton abbonner de la nav*/
+.bt{
+    background-color: #04AA6D; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    height: 50px;
+}
+
+/*la navigation*/
+.nav{
+    background-color: #ffffff;
+    padding-bottom: 80px;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    display: flex;
+    margin-top: -0.5em;
+    justify-content: space-between;
+    height: 5px;
+    border-radius: 12px;
+    box-shadow: 5px 10px 5px rgb(156, 156, 156);    
+}
+
+/*les images search et card*/
+.imgnav{
+    width: 24px;
+    height: 24px;
+    display: inline;
+    margin-left: 25px;
+}
+
+/*logo de la nav*/
+.nav .imglogo{
+    width: 100px;
+    height: 70px;
+    padding-left: 60px;
+}
+
+/*premier div or section de body*/
+.section2{
+    background-color: #ffffff;
+    width: 100%;
+    height: 400px;
+    padding-top: 30cqmin;
+    box-shadow: 10px 5px 5px rgb(156, 156, 156);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 250px;   
+}
+
+/*contenu premier div or section de body*/
+.container .section2 .section3{
+    margin-left: 80px;
+    padding-right: 80px;
+
+}
+/*bouton premier div or section de body*/
+.container .section2 .section3 .bt2{
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    height: 40px;
+
+}
+/*h2 premier div or section de body*/
+.container .section2 .section3 h2{
+    color: #04AA6D;
+}
+
+/**/
+.container .section2 .section4{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    
+}
+
+.container .section2 .section4{
+    padding-right: 90px;
+    border: 3px solid #04AA6D;
+    border-radius: 50%;
+    padding: 5px;
+    width: 150px;
+}
+/*image 1,2,3 section5,6 et 7 premier div or section de body*/
+.container .section2 .section5{
+    padding-left: 120px;
+    border: 3px solid #04AA6D;
+    border-radius: 50%;
+    padding: 10px;
+    width: 150px;
+}
+
+.container .section2 .section6{
+    padding-right: 90px;
+    border: 3px solid #04AA6D;
+    border-radius: 50%;
+    padding: 5px;
+    width: 150px;
+}
+
+.container .section2 .section7{
+    padding-left: 120px;
+    border: 3px solid #04AA6D;
+    border-radius: 50%;
+    padding: 2px;
+    width: 150px;
+}
+/*image 1,2,3 section5,6 et 7 premier div or section de body*/
+.container .section2 .imgs{
+    display: grid;
+    height: 400px;
+    align-content: center;
+    grid-template-columns: auto auto;
+    gap: 10px;    
+    padding: 10px;
+}
+
+.container .section7{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    grid-auto-rows: minmax(75px, auto);
+    padding: 0 80px 0 80px ;
+    box-shadow: 5px 10px 5px rgb(156, 156, 156);
+    
+}
+/*deuxiéme div ou section de body avec les grilles*/
+/*deuxième partie de la grille*/
+.two {
+    grid-column: 2 / 4;
+    grid-row: 1 / 5;
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+/*troisième partie de la grille*/
+.three {
+    grid-column: 1;
+    grid-row: 1 / 5;
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+/*les images de .two*/
+.section8{
+    width: 200px;
+    height: 200px;
+    padding-left: 80px;
+}
+
+/*les h1 ou titre de .two*/
+.section7 .two h1{
+    color: #ff4500	;
+    padding-left: 100px;
+}
+
+/* paragraphe de .two*/
+.section7 .two p{
+    padding-left: 100px;
+}
+
+/*les images de .two*/
+.section7 .two .section10{
+    width: 70%;
+    min-width: 400px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.section7 .two .section9{
+    width: 20%;
+    border: 6px solid rgb(182, 178, 178);
+    padding: 15px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    height: 120px;
+}
+
+/*footer*/
+body footer{
+    border: black 3px solid;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+
+/*produits */
+.section11{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 35px;
+    grid-auto-rows: minmax(75px, auto);
+    padding: 0 80px 30px 80px ;
+    box-shadow: 5px 10px 5px rgb(156, 156, 156);
+    text-align: center;
+}
+
+/*les images produits */
+.section11 .section12 .sect{
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+/*les div de la troième section ou div */
+.section11 .section12{
+    background-color: #ffffff;
+    border-radius: 12px;
+    height: 310px;
+    box-shadow: 5px 10px 5px rgb(156, 156, 156);
+
+}
+/*les étoile des div de produits */
+.section11 .section12 .sect1{
+    width: 24px;
+    height: 24px;
+    display: inline;
+    margin-left: 5px;
+}
+/*le bouton les div de produits */
+.bt3{
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-color: #277748;
+}
+
+/*temoignages*/
+.section13{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 35px;
+    grid-auto-rows: minmax(75px, auto);
+    padding: 0 80px 30px 80px ;
+    box-shadow: 5px 10px 5px rgb(255, 255, 255);
+    text-align: center;
+}
+.section13 .section14{
+    background-image: url("images/banner-Ker-maam.jpg");
+    border-radius: 12px;
+    height: 370px;
+    width: 300px;
+    box-shadow: 5px 10px 5px rgb(156, 156, 156);
+
+}
+
+.section13 .section14 .sect2{
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.section15{
+    background-color: #ffffff;
+}
