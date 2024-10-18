@@ -59,6 +59,10 @@ nav li{
     font-size: 18px;
     font-weight: bold;    
 }
+nav li a:hover {
+    color: #04AA6D;
+    text-decoration: underline 3px solid;
+}
 
 /* le boutton abbonner de la nav*/
 .bt{
@@ -73,6 +77,13 @@ nav li{
     border-radius: 12px;
     height: 50px;
 }
+.bt:hover{
+    background-color: #ffffff;
+    border-color: #04AA6D;
+    border: 3px solid;
+    color: #04AA6D;
+    
+  }
 
 /*la navigation*/
 .nav{
@@ -252,7 +263,6 @@ nav li{
 
 /*footer*/
 body footer{
-    background-color: #ffffff;
     text-align: center;
 }
 
@@ -376,8 +386,7 @@ body footer{
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    height: 300px;
-    
+    height: 300px;   
 }
 .btemail{
     background-color: #277748;
@@ -417,3 +426,60 @@ body footer{
     margin-top: 10px;
 }
 
+/*Contacts*/
+.section19{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.850),rgba(0, 0, 0, 0.850)) , url("3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 500px;   
+}
+
+.section19 input{
+    width: 65%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+.section19 textarea{
+    width: 65%;
+    height: 150px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 15px;
+
+}
+.section19 .btcontact{
+    background-color: #277748;
+    border-radius: 5px ;
+    color: white;
+    font-size: 16px;
+    border-color: #277748;
+  
+}
+
+/*raccourci*/
+.raccourci{
+    background-color: black;
+    margin-top: 40px;
+}
+
+.section20{
+    
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    grid-auto-rows: minmax(75px, auto);
+    padding: 0 0 10px 0px ;
+    color: #ffffff;
+    
+}
+/*grid temoignage*/
+.section20 .section21{
+    width: 350px;
+    height: 200px;
+    margin-top: 30px; 
+}
