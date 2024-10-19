@@ -35,10 +35,10 @@ ul{
 	position: fixed;
 }
 
-/*les card et sarch de la navigation*/
+/*les card et search de la navigation*/
 .section1{
     float: right; 
-    margin: 19px 10px;
+    margin: 19px 8px;
     padding: 10px 0;    
 }
 /*div boutton abonner de la nav*/
